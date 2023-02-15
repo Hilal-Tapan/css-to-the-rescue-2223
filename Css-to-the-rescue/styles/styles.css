@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/* custom properties */
+body { 
+    width: 50vmin;
+    height: 100vmin;
+    /* margin: auto; */
+    position: relative;
+    top: 1vmin;
+    left: 0;
+    right: 0;
+    background: linear-gradient(black 40%, rgb(1, 1, 68), purple );
+    display: grid;
+    place-content:center;
+
+}
+
+div{
+    width:1em;
+	aspect-ratio:1/1;
+	background-color:yellow;
+	
+	box-shadow:
+        -1em -1em 0 red,
+		1em 1em 0 #ffff00,
+	    2em 2em 0 white,
+		3em 3em 0 orange,
+
+        4em 3em 0 gold,
+		3em 4em 0 white,
+		4em 4em 0 orange,
+
+
+        -1em 3.5em 0 red,
+
+		2em 5em 0 gold,
+		1em 6em 0 yellow,
+		0em 7em 0 white,
+        -1em 8em 0 red,
+
+
+        3.5em 8em 0 orange,
+
+		5em 5em 0 orange,
+		6em 6em 0 red,
+        7em 7em 0 yellow,
+        8em 8em 0 white,
+ 
+        8em 3.5em 0 white,
+
+        5em 2em 0 orange,
+		6em 1em 0 gold,
+		7em 0em 0 white,
+        8em -1em 0 red,
+
+        3.5em -1em 0 white,
+
+        3.5em 10em 0 orange,
+        3.5em 12em 0 red,
+        3.5em 14em 0 gold,
+        3.5em 16em 0 white,
+        3.5em 18em 0 red;
+        transition: 1s;
+
+
+
+}
+
+div:hover{
+    transition: 1s;
+    opacity: 0;
+}
+
+/* styling */
