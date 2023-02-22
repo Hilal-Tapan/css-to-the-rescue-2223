@@ -466,6 +466,10 @@ section:nth-of-type(3){
   padding-left: 20%;
 }
 
+section:nth-of-type(2) div{
+  opacity: 0;
+}
+
 section:nth-of-type(3):has(:checked) div {
 --pixel-size:1em;
 
