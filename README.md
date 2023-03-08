@@ -86,6 +86,9 @@ Pixel art maken ging super goed. Ik heb er ook veel lol bij gehad en soms was ik
 Daarnaast ging de :has ook goed. Ik heb wel ff geknoeid bij de manual light/dark mode maar uiteindelijk was dat ook gelukt.
 Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom properties pas achteraf maar dit keer ben ik hier in het begin mee begonnen. De structuur van me bestand vind ik ook best netjes opgebouwd en kan goed me weg erin vinden.
 
+![Vuurwerkshow 1](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow%201.png)
+![Vuurwerkshow 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow2.png)
+
 ***
 
 ## Wat ging minder goed?
