@@ -77,7 +77,7 @@ section:nth-of-type(1):has(:checked) > div div{
 ```  
 
 ### Week 4
-In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet nog niet was gelukt. Bij het kleiner maken van het scherm veranderen de border colors. Hierna ging ik verder met container queries fixen en dit lukte!
+In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet nog niet was gelukt. Bij het kleiner maken van het scherm veranderen de border colors. Hierna ging ik verder met container queries fixen en dit lukte! Ik denk dat ik in de toekomst zeker met container queries en :has zal werken.
 
 ```
 @media screen and (prefers-color-scheme: light) {
@@ -99,7 +99,7 @@ In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik
 
 *** 
 
-## Wat ging goed?
+## Reflectie: Wat ging goed?
 Pixel art maken ging super goed. Ik heb er ook veel lol bij gehad en soms was ik er uren mee bezig aan een stuk door zonder dat ik het doorhad. Ik kon hier echt me creativiteit in kwijt. 
 Daarnaast ging de :has ook goed. Ik heb wel ff geknoeid bij de manual light/dark mode maar uiteindelijk was dat ook gelukt.
 Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom properties pas achteraf maar dit keer ben ik hier in het begin mee begonnen. Hierdoor kreeg ik meer rust gedurende het code schrijven merkte ik. De structuur van me bestand vind ik ook best netjes opgebouwd en kan goed me weg erin vinden door alle comments.
@@ -138,7 +138,7 @@ z-index: -1000;
 
 ***
 
-## Wat ging minder goed?
+## Reflectie: Wat ging minder goed?
 De container queries gingen wel minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet uit. Maar uiteindelijk is het wel gelukt. Blijkbaar moest de querie op een parent en dit deed ik niet. Met behulp van Vasiles en Sasja is het gelukt :).
 
 Daarnaast had ik in het begin dat me achtergrond gradient zichzelf bleef repeaten maar later kwam ik erachter dat ik hem op 100% moest zetten.
