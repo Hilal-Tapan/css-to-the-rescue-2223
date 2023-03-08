@@ -12,12 +12,148 @@ Hilal Tapan
 - Je hebt begrip hoe progressive enhancement elegant toe te passen. Je laat zien dat je cascade, inheritance en specificity kunt toepassen.
 
 
-## De Selector First CSS & No JS aanpak
-Het **eerste uitgangspunt** is dat je *geen* ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren en uiteraard om labels te koppelen aan inputs. En als het echt echt echt niet anders kan, heb je permissie om een enkele class toe te voegen.
 
-Een **tweede uitgangspunt** is dat je *geen* JavaScript gebruikt. Als iets niet kan met CSS, dan zal je iets anders moeten verzinnen om te maken. We onderzoeken de mogelijkheden van CSS in dit vak, en niet die van JS.
 
-### bronnen
+## Debrief
+Het doel van deze cursus is om te experimenteren met CSS om iets leuks te ontwikkelen. Er zijn vier thema's om uit te kiezen voor deze opdracht:
+* Een modulair bedieningspaneel
+* Een interactieve vuurwerkshow
+* Een 3D Rubiks kubus
+* Een Tailwind-project converteren naar moderne CSS.
+
+Als eerste trok de kubus me erg aan omdat ik nog nooit met 3d had gewerkt maar toen ik hoorde dat je hier een rekenwonder voor moet zijn ben heb ik toch maar de interactieve vuurwerkshow gekozen. Bij dit project zal ik kijken naar de mogelijkheden van CSS en de nieuwe functies die we hebben geleerd de afgelopen weken. Tijdens dit project zal ik zoveel mogelijk van mijn proces proberen vast te leggen.
+
+Het is de bedoeling dat we echt alleen HTML en CSS gebruiken, Javascript is verboden! ID's en Classes zijn ook verboden, dit is om goed te oefenen met de CSS selectoren. Als laatste is het de bedoeling dat we het lekker interactief maken.
+
+***
+
+## Leerdoelen
+Er zijn een aantal dingen waar ik mee aan de slag wil gaan en beter in wil worden:
+* Meer leren over :has, je kan hier namelijk ontzettend veel mee
+* Container queries uitproberen
+* Pixel art leren maken met css
+* Nette CSS schrijven 
+
+*** 
+
+## Proces
+### Week 1
+In Week 1 ben ik begonnen met brainstormen naar vuurwerk ideeen. Ik wist dat ik sowieso al een hele tijd pixel art wou uitproberen dus vond dit een goed moment om dit te doen! Pixel vuurwerk zie je ook niet zo snel dus werd al gauw enthousiast hiervan. Ik begon met schetsen maken en een plan op stellen voor de HTML. 
+
+### Week 2
+
+
+### Week 3
+
+
+### Week 4
+
+*** 
+
+## Wat ging goed?
+
+***
+
+## Wat ging minder goed?
+
+*** 
+
+## Aantekeningen mini cursusjes
+### Vormpjes maken
+Pixel art
+Dit doe je met box-shadow solid maken en van positie veranderen steeds
+https://codepen.io/shooft/pen/XWPJrzo
+
+Gradient om cirkel te maken
+https://codepen.io/shooft/pen/MWqYgRZ
+
+### :Has
+:has (handig voor interactief maken zonder javascript)
+Hier selecteert die alle p’s binnen alle sections
+Section:has(p){
+}
+
+Hier selecteert die alle h1’s die die een p erna hebben
+H1:has(+p)
+
+Hier selecteert die alle h1’s met de class een classje
+H1:has(.eenclassje)
+
+Hier selecteert die de body wanneer de body met id decor gecheckt is
+Body:has(#decor:checked){
+}
+
+Hier selecteert die de img wanneer de body met steen id gecheckt is
+Body:has(#steen:checked) img {
+}
+
+:has met dropdown
+Dropdown met <option>
+
+Hier veranderd die de body als je de rode optie aanklikt
+Body:has( option[value=“red”]:checked ) {
+}
+
+### Keyframes
+Css ceasar is om te kijken hoe je de ease-in-out etc wil.
+
+### Filters
+Je kan filters chainen, hierin maakt de volgorde uit in wat je het zet.
+filter: blur(2px) grayscale(100%);
+Hier blurt die eerst daarna grayscaled die.
+
+Filter is soms mooier dan dropshadow want hij gaat dan om de png vorm heen.
+Filter:dropshadow(1em 1em o black);
+
+Wanneer je een donkere achtergrond hebt kan je 
+filter:brightness(.75) gebruiken op een element 
+om het wat prettiger voor je ogen te maken.
+
+Hiermee kan je een element wit maken door de invert.
+Filter:grayscale(1) brightness(0) invert(1);
+
+Filter:hue-rotate(90deg);
+Hiermee kan je de kleuren veranderen op de kleuren ladder van een element.
+
+Neon kan je dus ook maken met filters
+
+H2{
+Backdrop-filter:blur(10px) 
+}.  -> dit maakt het element erachter blurred waardoor bijv een text meer zichtbaar is
+Je kan deze backdrop-filter met alle filter opties gebruiken
+
+***
+
+## Gastsprekers
+**Killian Valkhof**
+Polypane kan je een jaar gratis gebruiken als student zijnde.
+- Choose the least powerful language suitable for a given purpose.
+
+Toegankelijkheid
+Doe outline-color: transparent ipv none. Hierdoor kan je bij toegankelijkheid van extra contrast die outline contrastvol maken.
+
+Input type =“color”
+Hiermee kan je een colorpicker op je browser scherm krijgen
+
+Scroll-behaviour:smooth -> hiermee scroll je smooth
+
+Backdrop kan je gebruiken voor javascript vrije pop up scherm
+
+**Manuel**
+Heeft een project 100 dagen bloggen van CSS.
+- frontend-ontwikkelaar
+- fan van css
+- :has & container-query's
+
+Zijn favoriete eigenschappen:
+- rgb zonder komma of schuine streep
+- kleurenschema met mediaquery's
+- accentkleuren
+- kleurlettertypen
+
+*** 
+
+## bronnen
 containerqueries: 
 https://www.youtube.com/watch?v=rrLAg7xNERA
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries 
