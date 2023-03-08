@@ -58,6 +58,24 @@ section:nth-of-type(1):has(:checked) > div div{
 } 
 ```
 
+```
+ section:nth-of-type(2):has(:checked)  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    box-shadow: 
+      0 0 0 2px var(--color-red),
+      0 0 0 4px var(--color-orange),
+      0 0 0 6px var(--color-yellow),
+      0 0 0 8px var(--color-green),
+      0 0 0 10px var(--color-blue);
+    animation: explode 1s ease-out infinite;
+    animation-fill-mode: forwards;
+  }
+```  
+
 ### Week 4
 In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
 
@@ -84,7 +102,7 @@ In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik
 ## Wat ging goed?
 Pixel art maken ging super goed. Ik heb er ook veel lol bij gehad en soms was ik er uren mee bezig aan een stuk door zonder dat ik het doorhad. Ik kon hier echt me creativiteit in kwijt. 
 Daarnaast ging de :has ook goed. Ik heb wel ff geknoeid bij de manual light/dark mode maar uiteindelijk was dat ook gelukt.
-Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom properties pas achteraf maar dit keer ben ik hier in het begin mee begonnen. De structuur van me bestand vind ik ook best netjes opgebouwd en kan goed me weg erin vinden.
+Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom properties pas achteraf maar dit keer ben ik hier in het begin mee begonnen. Hierdoor kreeg ik meer rust gedurende het code schrijven merkte ik. De structuur van me bestand vind ik ook best netjes opgebouwd en kan goed me weg erin vinden door alle comments.
 
 ![Vuurwerkshow 1](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow%201.png)
 ![Vuurwerkshow 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow2.png)
@@ -92,8 +110,10 @@ Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom pr
 ***
 
 ## Wat ging minder goed?
-De container queries gingen minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet uit dus heb het gelaten voor wat het is. 
+De container queries gingen minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet. Ik had ook hulp gevraagt aan Vasilis en Sasja hiervoor en hun zeiden beiden dat hoe ik het had het gewoon zou moeten werken maar het werkte niet..  Hierdoor heb ik het gelaten voor wat het was. 
+
 Daarnaast had ik in het begin dat me achtergrond gradient zichzelf bleef repeaten maar later kwam ik erachter dat ik hem op 100% moest zetten.
+
 ![repeating gradient](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/gradient%20is%20repeating.png)
 
 
