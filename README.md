@@ -5,15 +5,6 @@ Hilal Tapan
 - Vasilis van Gemert
 - Sanne 't Hooft
 
-## Leerdoelen
-- Je kunt experimenteren met (voor jou) nieuwe css-technieken - om de mogelijkheden op waarde te schatten en te gebruiken waar gepast.
-- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
-- Je hebt begrip van de interactie-technieken van CSS (en HTML). De UX is aangenaam bruikbaar binnen de gekozen context(en).
-- Je hebt begrip hoe progressive enhancement elegant toe te passen. Je laat zien dat je cascade, inheritance en specificity kunt toepassen.
-
-
-
-
 ## Debrief
 Het doel van deze cursus is om te experimenteren met CSS om iets leuks te ontwikkelen. Er zijn vier thema's om uit te kiezen voor deze opdracht:
 * Een modulair bedieningspaneel
@@ -40,21 +31,39 @@ Er zijn een aantal dingen waar ik mee aan de slag wil gaan en beter in wil worde
 ### Week 1
 In Week 1 ben ik begonnen met brainstormen naar vuurwerk ideeen. Ik wist dat ik sowieso al een hele tijd pixel art wou uitproberen dus vond dit een goed moment om dit te doen! Pixel vuurwerk zie je ook niet zo snel dus werd al gauw enthousiast hiervan. Ik begon met schetsen maken en een plan op stellen voor de HTML. 
 
-### Week 2
+![schets 1](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets1.jpg)
+![schets 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets2.jpg)
+![schets 3](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets3.jpg)
 
+### Week 2
+In Week 2 ben ik begonnen aan de CSS. Ik begon met een pixel art show. Ik had deze volledig gemaakt in pixels en toen kwam ik erachter dat ik hem niet kon animeren. Hiervoor benaderde ik Sanne en die had een [codepen](https://codepen.io/shooft/pen/YzOPBXM) gemaakt die ik als voorbeeld heb gebruikt met de pixel art keyframes.
+
+![Eerste versie pixel](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/eerste-versie.png)
+
+Daarnaast ben ik in deze week verder gegaan met de andere twee vuurwerk shows en heb hier veel lol mee gehad.
 
 ### Week 3
+Week 3 ben ik verder gegaan met de styling. Hier heb ik container queries en :has uitgeprobeerd om het interactief te maken. 
+De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behandeld. De container querie lukte me niet helaas. 
 
 
 ### Week 4
+In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
 
 *** 
 
 ## Wat ging goed?
+Pixel art maken ging super goed. Ik heb er ook veel lol bij gehad en soms was ik er uren mee bezig aan een stuk door zonder dat ik het doorhad. Ik kon hier echt me creativiteit in kwijt. 
+Daarnaast ging de :has ook goed. Ik heb wel ff geknoeid bij de manual light/dark mode maar uiteindelijk was dat ook gelukt.
+Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom properties pas achteraf maar dit keer ben ik hier in het begin mee begonnen. De structuur van me bestand vind ik ook best netjes opgebouwd en kan goed me weg erin vinden.
 
 ***
 
 ## Wat ging minder goed?
+De container queries gingen minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet uit dus heb het gelaten voor wat het is. 
+Daarnaast had ik in het begin dat me achtergrond gradient zichzelf bleef repeaten maar later kwam ik erachter dat ik hem op 100% moest zetten.
+![repeating gradient](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/gradient%20is%20repeating.png)
+
 
 *** 
 
