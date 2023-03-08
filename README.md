@@ -44,7 +44,7 @@ Daarnaast ben ik in deze week verder gegaan met de andere twee vuurwerk shows en
 
 ### Week 3
 Week 3 ben ik verder gegaan met de styling. Hier heb ik container queries en :has uitgeprobeerd om het interactief te maken. 
-De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behandeld. De container querie lukte me niet helaas. 
+De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behandeld. De container querie lukte me in het begin niet maar uiteindelijk werkte die! 
 ``` 
 section:nth-of-type(1):has(:checked) > div div{
   position: absolute;
@@ -77,7 +77,7 @@ section:nth-of-type(1):has(:checked) > div div{
 ```  
 
 ### Week 4
-In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
+In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet nog niet was gelukt. Bij het kleiner maken van het scherm veranderen de border colors. Hierna ging ik verder met container queries fixen en dit lukte!
 
 ```
 @media screen and (prefers-color-scheme: light) {
@@ -245,7 +245,6 @@ Zijn favoriete eigenschappen:
 *** 
 
 ## bronnen
-containerqueries: 
 * https://www.youtube.com/watch?v=rrLAg7xNERA
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries 
 * https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec 
