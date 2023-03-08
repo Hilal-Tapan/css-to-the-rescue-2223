@@ -32,8 +32,8 @@ Er zijn een aantal dingen waar ik mee aan de slag wil gaan en beter in wil worde
 In Week 1 ben ik begonnen met brainstormen naar vuurwerk ideeen. Ik wist dat ik sowieso al een hele tijd pixel art wou uitproberen dus vond dit een goed moment om dit te doen! Pixel vuurwerk zie je ook niet zo snel dus werd al gauw enthousiast hiervan. Ik begon met schetsen maken en een plan op stellen voor de HTML. 
 
 ![schets 1](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets1.jpg)
-![schets 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets2.jpg)
-![schets 3](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets3.jpg)
+![schets 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets%202.jpg)
+![schets 3](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/schets%203.jpg)
 
 ### Week 2
 In Week 2 ben ik begonnen aan de CSS. Ik begon met een pixel art show. Ik had deze volledig gemaakt in pixels en toen kwam ik erachter dat ik hem niet kon animeren. Hiervoor benaderde ik Sanne en die had een [codepen](https://codepen.io/shooft/pen/YzOPBXM) gemaakt die ik als voorbeeld heb gebruikt met de pixel art keyframes.
@@ -45,7 +45,16 @@ Daarnaast ben ik in deze week verder gegaan met de andere twee vuurwerk shows en
 ### Week 3
 Week 3 ben ik verder gegaan met de styling. Hier heb ik container queries en :has uitgeprobeerd om het interactief te maken. 
 De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behandeld. De container querie lukte me niet helaas. 
-
+``` section:nth-of-type(1):has(:checked) > div div{
+  position: absolute;
+  width: .1em;
+  aspect-ratio: 1/1;
+  background-color: var(--color-yellow);
+  filter: drop-shadow(-.2em -1em .1em var(--color-orange));
+  box-shadow: 0 0 0 1px var(--color-red);
+  animation: vuurwerk1 1s ease-out infinite;
+  animation-fill-mode: forwards;
+} ```
 
 ### Week 4
 In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
@@ -164,5 +173,9 @@ Zijn favoriete eigenschappen:
 
 ## bronnen
 containerqueries: 
-https://www.youtube.com/watch?v=rrLAg7xNERA
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries 
+* https://www.youtube.com/watch?v=rrLAg7xNERA
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries 
+* https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/:has 
+* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
+* https://codepen.io/shooft/pen/YzOPBXM 
