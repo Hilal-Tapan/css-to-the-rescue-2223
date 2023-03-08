@@ -107,15 +107,45 @@ Ik heb ook voor mijn idee best nette CSS geschreven. Normaal doe ik de custom pr
 ![Vuurwerkshow 1](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow%201.png)
 ![Vuurwerkshow 2](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/vuurwerkshow2.png)
 
+
+Daarnaast is uiteindelijk me container queries ook gelukt en ben er echt trots op:
+
+```
+@container card (min-width: 20em) {
+  section div:last-of-type {
+    background-color:darkblue;
+  }
+} 
+
+section {
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: solid .3em var(--border);
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 1em;
+  transform: translateY(1%);
+  resize: horizontal;
+  overflow: hidden;
+  container: card / inline-size;
+}
+
+section div:last-of-type {
+height:100%;
+z-index: -1000;
+}
+```
+
 ***
 
 ## Wat ging minder goed?
-De container queries gingen minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet. Ik had ook hulp gevraagt aan Vasilis en Sasja hiervoor en hun zeiden beiden dat hoe ik het had het gewoon zou moeten werken maar het werkte niet..  Hierdoor heb ik het gelaten voor wat het was. 
+De container queries gingen wel minder goed. Ik heb hier best mee geknoeid en kwam er gewoon niet uit. Maar uiteindelijk is het wel gelukt. Blijkbaar moest de querie op een parent en dit deed ik niet. Met behulp van Vasiles en Sasja is het gelukt :).
 
 Daarnaast had ik in het begin dat me achtergrond gradient zichzelf bleef repeaten maar later kwam ik erachter dat ik hem op 100% moest zetten.
 
 ![repeating gradient](https://github.com/Hilal-Tapan/css-to-the-rescue-2223/blob/main/Css-to-the-rescue/images/gradient%20is%20repeating.png)
 
+Ook lukte het me eerst niet om die keyframe toe te passen op die pixel art. Dat kwam omdat ik het geen achtergrond had gegeven. Nadat ik dit deed met als voorbeeld Sanne's codepen lukte het!
 
 *** 
 
