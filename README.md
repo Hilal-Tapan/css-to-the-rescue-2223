@@ -45,7 +45,8 @@ Daarnaast ben ik in deze week verder gegaan met de andere twee vuurwerk shows en
 ### Week 3
 Week 3 ben ik verder gegaan met de styling. Hier heb ik container queries en :has uitgeprobeerd om het interactief te maken. 
 De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behandeld. De container querie lukte me niet helaas. 
-``` section:nth-of-type(1):has(:checked) > div div{
+``` 
+section:nth-of-type(1):has(:checked) > div div{
   position: absolute;
   width: .1em;
   aspect-ratio: 1/1;
@@ -54,7 +55,8 @@ De :has ging best wel goed, ik denk ook door de mini cursusjes waar het is behan
   box-shadow: 0 0 0 1px var(--color-red);
   animation: vuurwerk1 1s ease-out infinite;
   animation-fill-mode: forwards;
-} ```
+} 
+```
 
 ### Week 4
 In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
