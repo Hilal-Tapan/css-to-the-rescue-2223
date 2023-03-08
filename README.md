@@ -61,6 +61,24 @@ section:nth-of-type(1):has(:checked) > div div{
 ### Week 4
 In week 4 ben ik alles gaan fine tunen en heb ik extra interactie toegevoegd. Ik heb een manual light/dark mode toegevoegd die de gebruiker kan aanklikken. Ook ben ik aan de slag gegaan met mediaqueries omdat container queries niet echt lukte. Bij het kleiner maken van het scherm veranderen de border colors.
 
+```
+@media screen and (prefers-color-scheme: light) {
+	:has(div > label input:checked) {
+    --color-black:darkblue;
+    --color-darkblue:lightblue;
+    --color-purple:pink;
+	}	
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:has(div > label input:checked) {
+    --color-black:darkblue;
+    --color-darkblue:lightblue;
+    --color-purple:pink;
+	}	
+}
+```
+
 *** 
 
 ## Wat ging goed?
